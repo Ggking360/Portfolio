@@ -115,10 +115,10 @@
 
             <!-- Compétence Optimiser -->
             <section id="optimiser" class="competence">
-                <h2>Compétence Optimiser</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100">Compétence Optimiser</h2>
 
                 <!-- AC32.01 -->
-                <article>
+                <article class="icon-box" data-aos="fade-up" data-aos-delay="100">
                     <h3>AC32.01 | Anticiper les résultats de diverses métriques<br>(temps d’exécution, occupation
                         mémoire, montée en charge…)</h3>
                     <p>Cet apprentissage consiste à prévoir et évaluer les performances d’une application en mesurant,
@@ -135,20 +135,25 @@
 
                 <!-- AC32.02 -->
                 <article>
-                    <h3>AC32.02 | Profiler, analyser et justifier le comportement d’un code existant</h3>
-                    <p>Cette compétence consiste à utiliser des outils de profilage et d’analyse afin d’identifier les
+                    <h3 data-aos="fade-up" data-aos-delay="100">AC32.02 | Profiler, analyser et justifier le
+                        comportement d’un code existant</h3>
+                    <p data-aos="fade-up" data-aos-delay="100">Cette compétence consiste à utiliser des outils de
+                        profilage et d’analyse afin d’identifier les
                         goulots d’étranglement et de justifier les choix techniques effectués pour optimiser les
                         performances du code.</p>
-                    <p><strong>CE2.04</strong> (en justifiant les choix et validant les résultats)</p>
-                    <p><em>Validation dans les projets :</em></p>
-                    <p>L’analyse d’un code existant dans le projet BoardHub (SAE) a permis de proposer des améliorations
+                    <p data-aos="fade-up" data-aos-delay="100"><strong>CE2.04</strong> (en justifiant les choix et
+                        validant les résultats)</p>
+                    <p data-aos="fade-up" data-aos-delay="100"><em>Validation dans les projets :</em></p>
+                    <p data-aos="fade-up" data-aos-delay="100">L’analyse d’un code existant dans le projet BoardHub
+                        (SAE) a permis de proposer des améliorations
                         pertinentes et de renforcer la robustesse de l’application. L’application donnée lors de cette
                         SAE nous a conduit à analyser, réaliser des graphiques de structure pour comprendre et corriger
                         des bugs structurels. Ces analyses ont permis de détecter et retirer du code inutile (par
                         exemple, des requêtes non préparées), améliorant ainsi le code existant comme illustré dans
                         l’exemple suivant :</p>
-                    <img src="assets/img/repository.png" alt="Exemple de CE2.04">
-                    <pre class="example"><code>public function telemetry($a, $b, $c)
+                    <img src="assets/img/repository.png" alt="Exemple de CE2.04" data-aos="fade-up"
+                        data-aos-delay="100">
+                    <pre class="example" data-aos="fade-up" data-aos-delay="100"><code>public function telemetry($a, $b, $c)
 {
     ConnexionUtilisateur::important($a, $b ? null : (($c + $a) > $a * $a ? $b : 24));
 }
@@ -159,7 +164,8 @@ public static function important($x, $y)
     // Je vais simplement retirer le code pour le moment
 }
 </code></pre>
-                    <p style="font-style: italic;"> Il existe à travers les 4 classes: Cookie ; Session ;
+                    <p style="font-style: italic;" data-aos="fade-up" data-aos-delay="100"> Il existe à travers les 4
+                        classes: Cookie ; Session ;
                         ConnexionUtilisateur ; AbstractRepository avec respectivement les
                         fonctions : fun ; telemetry ; important ; myDbInt qui ne sont jamais appelées. Ces fonctions
                         sont un problème car elles
@@ -171,15 +177,19 @@ public static function important($x, $y)
 
                 <!-- AC32.03 -->
                 <article>
-                    <h3>AC32.03 | Choisir et utiliser des bibliothèques et méthodes dédiées au domaine
+                    <h3 data-aos="fade-up" data-aos-delay="100">AC32.03 | Choisir et utiliser des bibliothèques et
+                        méthodes dédiées au domaine
                         d’application<br>(imagerie, immersion, intelligence artificielle, jeux vidéo, parallélisme,
                         calcul formel…)</h3>
-                    <p>Ce volet vise à sélectionner et exploiter les outils, bibliothèques ou frameworks les plus
+                    <p data-aos="fade-up" data-aos-delay="100">Ce volet vise à sélectionner et exploiter les outils,
+                        bibliothèques ou frameworks les plus
                         adaptés aux spécificités d’un domaine donné afin d’optimiser le développement de solutions
                         innovantes.</p>
-                    <p><strong>CE2.03</strong> (en s’appuyant sur des schémas de raisonnement)</p>
-                    <p><em>Validation dans les projets :</em></p>
-                    <p>Dans Wisp Madness, dont la nature imposait un développement rapide d’une application ludique et
+                    <p data-aos="fade-up" data-aos-delay="100"><strong>CE2.03</strong> (en s’appuyant sur des schémas de
+                        raisonnement)</p>
+                    <p data-aos="fade-up" data-aos-delay="100"><em>Validation dans les projets :</em></p>
+                    <p data-aos="fade-up" data-aos-delay="100">Dans Wisp Madness, dont la nature imposait un
+                        développement rapide d’une application ludique et
                         interactive, l’utilisation de logiciels faciles à prendre en main et performants a permis
                         d’utiliser un outil adapté aux contraintes de la Code Game Jam. Le logiciel choisi était Godot,
                         un outil léger, simple et efficace qui nous a permis d’avancer rapidement. Par ailleurs, lors
@@ -191,29 +201,34 @@ public static function important($x, $y)
 
             <!-- Compétence Collaborer -->
             <section id="collaborer" class="competence">
-                <h2>Compétence Collaborer</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100">Compétence Collaborer</h2>
 
                 <!-- AC36.01 -->
                 <article>
-                    <h3>AC36.01 | Organiser et partager une veille technologique et informationnelle</h3>
-                    <p>Cette compétence implique de rechercher, organiser et diffuser des informations pertinentes sur
+                    <h3 data-aos="fade-up" data-aos-delay="100">AC36.01 | Organiser et partager une veille technologique
+                        et informationnelle</h3>
+                    <p data-aos="fade-up" data-aos-delay="100">Cette compétence implique de rechercher, organiser et
+                        diffuser des informations pertinentes sur
                         les évolutions technologiques afin de rester à la pointe de l’innovation et de partager ces
                         connaissances au sein d’une équipe.</p>
-                    <p><strong>CE6.04</strong> (en développant une communication efficace et collaborative)</p>
-                    <p><em>Validation dans le cours :</em></p>
-                    <p>Lors d’un exercice en communication, mon groupe de quatre a élaboré une veille sur divers sujets
+                    <p data-aos="fade-up" data-aos-delay="100"><strong>CE6.04</strong> (en développant une communication
+                        efficace et collaborative)</p>
+                    <p data-aos="fade-up" data-aos-delay="100"><em>Validation dans le cours :</em></p>
+                    <p data-aos="fade-up" data-aos-delay="100">Lors d’un exercice en communication, mon groupe de quatre
+                        a élaboré une veille sur divers sujets
                         (data et écologie, espace, jeux vidéo). Chaque semaine, nous nous réunissions pour collecter,
                         trier, analyser et synthétiser les informations, adoptant ainsi une démarche de veille
                         régulière.</p>
-                    <p><strong>Exemple de structure d’informations stockées :</strong></p>
-                    <pre class="example"><code>[Semaine des news]
+                    <p data-aos="fade-up" data-aos-delay="100"><strong>Exemple de structure d’informations stockées
+                            :</strong></p>
+                    <pre class="example" data-aos="fade-up" data-aos-delay="100"><code>[Semaine des news]
 [Titre de la news (pas forcément celui de l’article)]
 [catégorie]
 Résumé de l’article
 Source : [hyperlien][numéro redirigeant vers le lien au format IEEE]
 </code></pre>
-                    <p><strong>Exemple de news :</strong></p>
-                    <p class="example"
+                    <p data-aos="fade-up" data-aos-delay="100"><strong>Exemple de news :</strong></p>
+                    <p class="example" data-aos="fade-up" data-aos-delay="100"
                         style="font-style: italic;background: #f5f9fc;padding: 15px;text-align: left;border: 1px solid #ddd;margin: 20px auto;">
                         <strong>Semaine du 9
                             septembre 2024 </strong> <br>
@@ -240,18 +255,22 @@ Source : [hyperlien][numéro redirigeant vers le lien au format IEEE]
 
                 <!-- AC36.02 -->
                 <article>
-                    <h3>AC36.02 | Identifier les enjeux de l’économie de l’innovation numérique</h3>
-                    <p>Il s’agit de comprendre l’impact des innovations technologiques sur l’économie et d’identifier
+                    <h3 data-aos="fade-up" data-aos-delay="100">AC36.02 | Identifier les enjeux de l’économie de
+                        l’innovation numérique</h3>
+                    <p data-aos="fade-up" data-aos-delay="100">Il s’agit de comprendre l’impact des innovations
+                        technologiques sur l’économie et d’identifier
                         les opportunités ainsi que les défis qu’elles représentent pour les organisations.</p>
-                    <p><strong>CE6.02</strong> (en accompagnant la mise en œuvre des évolutions informatiques)</p>
-                    <p><em>Validation dans les projets :</em></p>
-                    <p>Au cours de mon stage chez Nikhil04, l’analyse des besoins a intégré une réflexion approfondie
+                    <p data-aos="fade-up" data-aos-delay="100"><strong>CE6.02</strong> (en accompagnant la mise en œuvre
+                        des évolutions informatiques)</p>
+                    <p data-aos="fade-up" data-aos-delay="100"><em>Validation dans les projets :</em></p>
+                    <p data-aos="fade-up" data-aos-delay="100">Au cours de mon stage chez Nikhil04, l’analyse des
+                        besoins a intégré une réflexion approfondie
                         sur les enjeux économiques du numérique (sécurité, expérience utilisateur, coûts matériels et
                         adaptation à un marché en évolution). Les technologies mises en œuvre étaient à la fois
                         récentes, évolutives et économiquement avantageuses.</p>
-                    <p><strong>Exemple :</strong></p>
-                    <img src="assets/img/finaliser.png" alt="Exemple de CE6.02">
-                    <pre class="example"><code><strong>Titre : Finaliser une vente</strong>
+                    <p data-aos="fade-up" data-aos-delay="100"><strong>Exemple :</strong></p>
+                    <img src="assets/img/finaliser.png" alt="Exemple de CE6.02" data-aos="fade-up" data-aos-delay="100">
+                    <pre class="example" data-aos="fade-up" data-aos-delay="100"><code><strong>Titre : Finaliser une vente</strong>
 Résumé : L'administrateur finalise une vente pour un client.
 Acteurs : 
   - Administrateur (principal)
@@ -281,7 +300,7 @@ Enchaînements alternatifs :
                 </article>
 
                 <!-- AC36.03 -->
-                <article>
+                <article data-aos="fade-up" data-aos-delay="100">
                     <h3>AC36.03 | Guider la conduite du changement informatique au sein d’une organisation</h3>
                     <p>Cette compétence vise à accompagner les transformations numériques en identifiant les leviers de
                         changement et en pilotant l’évolution des systèmes d’information.</p>
@@ -291,10 +310,10 @@ Enchaînements alternatifs :
                         informatiques, soutenant le changement sur le plan technique et organisationnel, notamment en
                         formant les utilisateurs aux nouveaux outils et processus. Les utilisateurs, habitués aux
                         documents papier, ont mis du temps à s’adapter à la conversion numérique.</p>
-                </article>
+                </article data-aos="fade-up" data-aos-delay="100">
 
                 <!-- AC36.04 -->
-                <article>
+                <article data-aos="fade-up" data-aos-delay="100">
                     <h3>AC36.04 | Accompagner le management de projet informatique</h3>
                     <p>Il s’agit de collaborer étroitement avec les équipes de management dans la planification,
                         l’organisation et la coordination des projets informatiques.</p>
@@ -309,10 +328,10 @@ Enchaînements alternatifs :
 
             <!-- Compétence Réaliser -->
             <section id="realiser" class="competence">
-                <h2>Compétence Réaliser</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100">Compétence Réaliser</h2>
 
                 <!-- AC31.01 -->
-                <article>
+                <article data-aos="fade-up" data-aos-delay="100">
                     <h3>AC31.01 | Choisir et implémenter les architectures adaptées</h3>
                     <p>Cet apprentissage consiste à analyser les besoins d’un projet pour sélectionner et mettre en
                         œuvre l’architecture logicielle la plus pertinente (ex. architecture MVC pour le web).</p>
@@ -326,7 +345,7 @@ Enchaînements alternatifs :
                 </article>
 
                 <!-- AC31.02 -->
-                <article>
+                <article data-aos="fade-up" data-aos-delay="100">
                     <h3>AC31.02 | Faire évoluer une application existante</h3>
                     <p>Cette compétence permet de prendre en charge la maintenance et l’évolution d’un logiciel en
                         production, que ce soit par l’ajout de nouvelles fonctionnalités ou l’optimisation du code
@@ -340,7 +359,7 @@ Enchaînements alternatifs :
                 </article>
 
                 <!-- AC31.03 -->
-                <article>
+                <article data-aos="fade-up" data-aos-delay="100">
                     <h3>AC31.03 | Intégrer des solutions dans un environnement de production</h3>
                     <p>Ce volet concerne la capacité à déployer et intégrer des applications dans un environnement réel,
                         en garantissant leur stabilité, leur sécurité et leur pérennité.</p>
